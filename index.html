@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <!--FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!--CSS FILE-->
+    <link rel="stylesheet" href="css/style.css">
+<!-- METADATA -->
+    <meta name="description" content="Linktree">
+    <meta name="keywords" content="winterhack, fullstack, escueladevrock, programadora, coder, Task List" >
+    <meta name="author" content="Victoria Romero" >
+    <meta name="copyright" content="Devrock 2023" >
+<!-- ROBOTS -->
+    <meta name="robots" content="index" >
+    <meta name="robots" content="noindex" >
+    <meta name="robots" content="follow" >
+    <meta name="robots" content="nofollow" >
+<!-- FAVICON -->
+    <link rel="icon" type="image" sizes="32X32" href="img/to-do-list.png">
+<!-- META FACEBOOK -->
+    <meta property="og:title" content="Victoria - Task List">
+    <meta property="og:description" content="Victoria Romero's Task List">
+    <meta property="og:type" content="Task List">
+    <meta property="og:image" content="https://VictoriaRom.github.io/img/icon.png">
+    <meta property="og:url" content="https://VictoriaRom.github.io">
+<!-- META TWITTER -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Victoria - Task list">
+    <meta property="twitter:description" content="Victoria Romero's Task List">
+    <meta property="twitter:type" content="Task List">
+    <meta property="twitter:image" content="https://VictoriaRom.github.io/img/icon.png">
+    <meta property="twitter:url" content="https://VictoriaRom.github.io">
+</head>
+
+<body>
+    <section>
+        <div class="name" id="name">
+            <img class="imghi" src="https://media1.giphy.com/media/3o7btV5GAWaGkwjTrO/giphy.gif?cid=ecf05e47dbc6v9jibagx3x6emovngr2x0jvafvfacpipasnk&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="List">
+            <h1>Hi! How you doing?</h1>
+            <h3>Please <strong>enter your name</strong> to access your personalized task list.</h3>
+            <input type="text" id="enter" placeholder="your name here"> <br> <br>
+            <button id="btn">SUBMIT</button>
+            </div>
+
+            <div class="Tasklist" id="Tasklist">
+
+            <img class="imgcheck" src="https://media0.giphy.com/media/45ZbYP8Q1NzCTwc6Bz/giphy.gif?cid=ecf05e47b0oxn6o60xfi9b0mrx6o8zldqf5y7bn7zdbu93jy&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="List3">
+            <h1 id="todo"></h1>
+            <div class="act">
+                <input type="checkbox" value="Drink a lot of coffee"> <span class="act-text">Drink a lot of coffee</span>
+                <br>
+                <input type="checkbox" value="Go to the gym"> <span class="act-text">Go to the gym</span>
+                <br>
+                <input type="checkbox" value="Give attendance on Discord in the Winterhack course"> <span class="act-text">Give attendance on Discord in the Winterhack course</span>
+                <br>
+                <input type="checkbox" value="Watch the daily videos of Winterhack"> <span class="act-text">Watch the daily videos of Winterhack</span>
+                <br>
+                <input type="checkbox" value="Check email"> <span class="act-text">Check email</span>
+                <br>
+                <input type="checkbox" value="Do college activities"> <span class="act-text">Do college activities</span>
+                <br>
+                <input type="checkbox" value="Heat the kettle"> <span class="act-text">Heat the kettle</span>
+                <br>
+                <input type="checkbox" value="Remember go to work"> <span class="act-text">Remember go to work</span>
+                <br>
+                <input type="checkbox" value="Play some music"> <span class="act-text">Play some music</span>
+                <br>
+                <input type="checkbox" value="Figure out what I'm going to do over the weekend"> <span class="act-text">Figure out what I'm going to do over the weekend</span>
+                <br>
+            </div>
+            
+            <div id="show" >   
+            <span class="close-symbol" id="close-billb">
+                close
+                </span>
+            <img class="imgchau" src="https://media3.giphy.com/media/Te2EExgjVovN4gZ4pZ/giphy.gif?cid=ecf05e47b3bs8bw0wroe6gmw1j9h1cjg24307ehqugfotvt8&ep=v1_gifs_related&rid=giphy.gif&ct=g" alt="List4">
+            <h3 id="check-act"></h3>
+            </div>
+    </section> 
+    <footer>
+        <!--MICROFORMATOS-->
+        <div itemscope itemtype="https://schema.org/Person">
+            <hr>
+            <p>Copy <span itemprop="funder">©Victoria Romero</span> | EscuelaDevRock</p>
+            <p class="hide"><a itemprop="hasMap" href="https://goo.gl/maps/CLzkJcFLkz6Ef76f6">Buenos Aires, Argentina</a></p>
+            </div>
+    </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
